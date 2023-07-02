@@ -1,0 +1,1929 @@
+<?xml version="1.0"?>
+<CustomViewDef xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CategoryID>00000000-0000-0000-0000-000000000000</CategoryID>
+  <Name>residualLinear</Name>
+  <ID>ad9e97a8-810c-4327-9dc7-2bbadb648bd1</ID>
+  <AttrList />
+  <Version>3</Version>
+  <ItemType>Strategy</ItemType>
+  <Configuration>
+    <Groups>
+      <Subscriptions>
+        <Name>Subscriptions</Name>
+        <Expanded>true</Expanded>
+        <Subscriptions>
+          <Subscription>
+            <Selected>true</Selected>
+            <ID>69768bd4-20a0-4b1f-991a-7c80b490c1a4</ID>
+            <TickDBMessages />
+            <StreamTickDBMessages />
+            <UseCompiledCodec>true</UseCompiledCodec>
+            <BarKind>Price</BarKind>
+            <SubscriptionType>BarData</SubscriptionType>
+            <SizeUom>Hour</SizeUom>
+            <StackUom>Bar</StackUom>
+            <IsDaily>false</IsDaily>
+            <IsMain>true</IsMain>
+            <CarryOver>true</CarryOver>
+            <BroadcastOutOfSessionData>false</BroadcastOutOfSessionData>
+            <CreateQuotes>true</CreateQuotes>
+            <SubscribeBBO>true</SubscribeBBO>
+            <SubscribeTrades>true</SubscribeTrades>
+            <UseL2Data>false</UseL2Data>
+            <L2DataDepth>20</L2DataDepth>
+            <UseL1QuoteAggregator>false</UseL1QuoteAggregator>
+            <AdjustmentOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </AdjustmentOptions>
+          </Subscription>
+          <Subscription>
+            <Selected>false</Selected>
+            <ID>3239995d-f7c7-4ee4-8435-6b8ff6b1ad23</ID>
+            <TickDBMessages />
+            <StreamTickDBMessages />
+            <UseCompiledCodec>true</UseCompiledCodec>
+            <BarKind>Price</BarKind>
+            <SubscriptionType>BarData</SubscriptionType>
+            <Stack>32</Stack>
+            <StackUom>Bar</StackUom>
+            <IsDaily>true</IsDaily>
+            <IsMain>false</IsMain>
+            <CarryOver>true</CarryOver>
+            <BroadcastOutOfSessionData>false</BroadcastOutOfSessionData>
+            <CreateQuotes>true</CreateQuotes>
+            <SubscribeBBO>true</SubscribeBBO>
+            <SubscribeTrades>true</SubscribeTrades>
+            <UseL2Data>false</UseL2Data>
+            <L2DataDepth>10</L2DataDepth>
+            <UseL1QuoteAggregator>false</UseL1QuoteAggregator>
+            <AdjustmentOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </AdjustmentOptions>
+          </Subscription>
+          <Subscription>
+            <Selected>false</Selected>
+            <ID>776630dc-0c5a-43d8-ac2b-9dbe01e9e1bd</ID>
+            <TickDBMessages />
+            <StreamTickDBMessages />
+            <UseCompiledCodec>true</UseCompiledCodec>
+            <BarKind>Price</BarKind>
+            <SubscriptionType>TickBarData</SubscriptionType>
+            <IsDaily>false</IsDaily>
+            <IsMain>false</IsMain>
+            <CarryOver>true</CarryOver>
+            <BroadcastOutOfSessionData>false</BroadcastOutOfSessionData>
+            <CreateQuotes>true</CreateQuotes>
+            <SubscribeBBO>true</SubscribeBBO>
+            <SubscribeTrades>true</SubscribeTrades>
+            <UseL2Data>false</UseL2Data>
+            <L2DataDepth>10</L2DataDepth>
+            <UseL1QuoteAggregator>false</UseL1QuoteAggregator>
+            <AdjustmentOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </AdjustmentOptions>
+          </Subscription>
+          <Subscription>
+            <Selected>false</Selected>
+            <ID>226b515e-b210-46a7-a94f-683826818f71</ID>
+            <TickDBMessages />
+            <StreamTickDBMessages />
+            <UseCompiledCodec>true</UseCompiledCodec>
+            <BarKind>Price</BarKind>
+            <SubscriptionType>FundamentalData</SubscriptionType>
+            <IsDaily>false</IsDaily>
+            <IsMain>false</IsMain>
+            <Attributes>
+              <Active>false</Active>
+              <Items>
+                <Item>
+                  <Visible>true</Visible>
+                  <CarryOverLastValue>true</CarryOverLastValue>
+                  <PeriodsCount>1.5</PeriodsCount>
+                  <DoNotReplaceStaticDate>false</DoNotReplaceStaticDate>
+                  <DataDelay>0</DataDelay>
+                  <PeriodicityValue>Irregular</PeriodicityValue>
+                  <AvailablePeriodicity>Static CPA CPQ CPM CPW CPD Irregular Current</AvailablePeriodicity>
+                  <TickDbMetaInfoItem>
+                    <StreamName>Onchain_Data</StreamName>
+                    <AttrRealName>circulating_marketcap</AttrRealName>
+                  </TickDbMetaInfoItem>
+                  <StackSize>1</StackSize>
+                  <BarSize>0</BarSize>
+                  <DataTypeString>Double</DataTypeString>
+                  <DisplayName>Circulating_Marketcap</DisplayName>
+                  <TaxName>TimeBase</TaxName>
+                  <TableName>Onchain_Data</TableName>
+                  <Variable>Circulating_Marketcap</Variable>
+                  <VarFullName>TimeBase.Onchain_Data.circulating_marketcap</VarFullName>
+                </Item>
+              </Items>
+            </Attributes>
+            <CustomProperties>
+              <Items />
+            </CustomProperties>
+            <CarryOver>true</CarryOver>
+            <BroadcastOutOfSessionData>false</BroadcastOutOfSessionData>
+            <CreateQuotes>true</CreateQuotes>
+            <SubscribeBBO>true</SubscribeBBO>
+            <SubscribeTrades>true</SubscribeTrades>
+            <UseL2Data>false</UseL2Data>
+            <L2DataDepth>10</L2DataDepth>
+            <UseL1QuoteAggregator>false</UseL1QuoteAggregator>
+            <AdjustmentOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </AdjustmentOptions>
+          </Subscription>
+          <Subscription>
+            <Selected>false</Selected>
+            <ID>145601b2-c789-4043-b4a3-2cd4486c774b</ID>
+            <TickDBMessages />
+            <StreamTickDBMessages />
+            <UseCompiledCodec>true</UseCompiledCodec>
+            <BarKind>Price</BarKind>
+            <SubscriptionType>None</SubscriptionType>
+            <IsDaily>false</IsDaily>
+            <IsMain>false</IsMain>
+            <CarryOver>true</CarryOver>
+            <BroadcastOutOfSessionData>false</BroadcastOutOfSessionData>
+            <CreateQuotes>true</CreateQuotes>
+            <SubscribeBBO>true</SubscribeBBO>
+            <SubscribeTrades>true</SubscribeTrades>
+            <UseL2Data>false</UseL2Data>
+            <L2DataDepth>10</L2DataDepth>
+            <UseL1QuoteAggregator>false</UseL1QuoteAggregator>
+            <AdjustmentOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </AdjustmentOptions>
+          </Subscription>
+          <Subscription>
+            <Selected>false</Selected>
+            <Name>Onchain_Data</Name>
+            <ID>8769aace-7cd5-48a6-8a63-dd08c460d2dc</ID>
+            <TickDBMessages>
+              <TickDBMessage>
+                <Stream>Onchain_Data</Stream>
+                <StreamName>Onchain_Data</StreamName>
+                <Type>deltix.timebase.api.universal.Onchain</Type>
+                <BuiltInClassName>deltix.timebase.api.messages.InstrumentMessage</BuiltInClassName>
+                <ParentClassNames>
+                  <string>deltix.timebase.api.universal.Onchain</string>
+                </ParentClassNames>
+                <Fields>
+                  <TickDBMessageField>
+                    <Name>close</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>open</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>high</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>low</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volume</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>circulating_marketcap</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>marketcap_oustanding</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>marketcap_dominance</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_30d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_90d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_1yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_3yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_30d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_90d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_1yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_3yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>circulating_supply</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>supply_outstanding</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_rate</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_rate_daily</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_total_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>followers</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>users</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>nvt_adjusted</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>rvt_adjusted</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>hash_rate</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>miner_supply_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>addresses</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>active_addresses</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>flow_in_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>supply_active_1y_percent</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>flow_out_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>supply_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>fees_total_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>revenue_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>transaction_volume_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>adjusted_transfer_value_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>transaction_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>block_count_x</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>block_count_y</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_age_avg</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_age_median</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_profit_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_loss_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                </Fields>
+              </TickDBMessage>
+            </TickDBMessages>
+            <StreamTickDBMessages>
+              <TickDBMessage>
+                <Stream>Onchain_Data</Stream>
+                <StreamName>Onchain_Data</StreamName>
+                <Type>deltix.timebase.api.universal.Onchain</Type>
+                <BuiltInClassName>deltix.timebase.api.messages.InstrumentMessage</BuiltInClassName>
+                <ParentClassNames>
+                  <string>deltix.timebase.api.universal.Onchain</string>
+                </ParentClassNames>
+                <Fields>
+                  <TickDBMessageField>
+                    <Name>close</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>open</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>high</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>low</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volume</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>circulating_marketcap</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>marketcap_oustanding</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>marketcap_dominance</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_30d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_90d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_1yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>volatility_3yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_30d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_90d</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_1yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>sharpe_3yr</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>circulating_supply</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>supply_outstanding</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_rate</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_rate_daily</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>issuance_total_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>followers</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>users</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>nvt_adjusted</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>rvt_adjusted</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>hash_rate</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>miner_supply_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>addresses</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>active_addresses</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>flow_in_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>supply_active_1y_percent</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>flow_out_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>supply_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>fees_total_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>revenue_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>transaction_volume_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>adjusted_transfer_value_usd</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>transaction_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>block_count_x</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>block_count_y</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_age_avg</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_age_median</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_profit_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>utxo_loss_count</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.Onchain</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                </Fields>
+              </TickDBMessage>
+            </StreamTickDBMessages>
+            <UseCompiledCodec>true</UseCompiledCodec>
+            <BarKind>Price</BarKind>
+            <SubscriptionType>CustomMessage</SubscriptionType>
+            <IsDaily>false</IsDaily>
+            <IsMain>false</IsMain>
+            <CarryOver>true</CarryOver>
+            <BroadcastOutOfSessionData>false</BroadcastOutOfSessionData>
+            <CreateQuotes>true</CreateQuotes>
+            <SubscribeBBO>true</SubscribeBBO>
+            <SubscribeTrades>true</SubscribeTrades>
+            <UseL2Data>false</UseL2Data>
+            <L2DataDepth>10</L2DataDepth>
+            <UseL1QuoteAggregator>false</UseL1QuoteAggregator>
+            <AdjustmentOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </AdjustmentOptions>
+          </Subscription>
+        </Subscriptions>
+      </Subscriptions>
+      <Properties>
+        <Name>Properties</Name>
+        <Expanded>true</Expanded>
+        <Properties>
+          <Property>
+            <Selected>true</Selected>
+            <Name>active</Name>
+            <ID>e6b1e014-8bb9-4215-a067-1c45a50dea86</ID>
+            <AttrCompressType>None</AttrCompressType>
+            <Body>            return (this.close &gt; 0);</Body>
+            <ReturnType>bool</ReturnType>
+            <Modifiers>Public</Modifiers>
+            <GeneratedByWizard>false</GeneratedByWizard>
+            <Pad>0</Pad>
+          </Property>
+        </Properties>
+      </Properties>
+      <Symbols>
+        <Name>Instrument and Indices</Name>
+        <Expanded>true</Expanded>
+        <Symbols />
+      </Symbols>
+      <InputParameters>
+        <Name>Input Parameters</Name>
+        <Expanded>true</Expanded>
+        <InputParameters>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>StrategyName</Name>
+            <ID>f9c1dbcf-d563-455a-9791-4ec80041d8c8</ID>
+            <Question>Strategy Name:</Question>
+            <ParamType>string</ParamType>
+            <DefaultValue xsi:type="xsd:string">"Size_Tradable"</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>InitialCap</Name>
+            <ID>f9c1dbcf-d563-455a-9791-4ec80041d8c4</ID>
+            <Question>Initial Capital (US$):</Question>
+            <ParamType>double</ParamType>
+            <DefaultValue xsi:type="xsd:string">10</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>BetSize</Name>
+            <ID>81c40e87-4aaa-47fc-97a1-801afed29c84</ID>
+            <Question>Bet Size :</Question>
+            <ParamType>int</ParamType>
+            <DefaultValue xsi:type="xsd:string" />
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>InterestOnCash</Name>
+            <ID>cd6946f4-39fa-4b69-9df7-17ebcead4806</ID>
+            <Question>Interest On Cash (%):</Question>
+            <ParamType>double</ParamType>
+            <DefaultValue xsi:type="xsd:string">0</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>StopLossPct</Name>
+            <ID>91c40e87-4aaa-47fc-97a1-101afed29c84</ID>
+            <Question>Stop Loss pct (%):</Question>
+            <ParamType>double</ParamType>
+            <DefaultValue xsi:type="xsd:string">100</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>TakeProfitPct</Name>
+            <ID>91c40e87-4aaa-47fc-97a1-101afed29c48</ID>
+            <Question>Take Profit Pct (%):</Question>
+            <ParamType>double</ParamType>
+            <DefaultValue xsi:type="xsd:string">10000</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>exchange</Name>
+            <ID>1e6ca4a8-ae7d-490c-b379-398db6b6b976</ID>
+            <Question>Exchange:</Question>
+            <ParamType>string</ParamType>
+            <DefaultValue xsi:type="xsd:string">"OKEX"</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>emsParameters</Name>
+            <ID>0dcd7e02-d549-4727-94fa-090dcb832641</ID>
+            <Question>EMS Parameters</Question>
+            <ParamType>Deltix.EMS.Coordinator.EMSParameters</ParamType>
+            <DefaultValue xsi:type="xsd:string">CreateEMSParameters()</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>instrumentsProportion</Name>
+            <ID>81c40e87-4aaa-47fc-97a1-801afed29c88</ID>
+            <Question>Proportion of instruments to include in randomization (%):</Question>
+            <ParamType>double</ParamType>
+            <DefaultValue xsi:type="xsd:string">100</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>ReInvestMode</Name>
+            <ID>53278983-1caf-42ab-bb94-4c65d41406ae</ID>
+            <Question>ReInvest ?</Question>
+            <ParamType>bool</ParamType>
+            <DefaultValue xsi:type="xsd:string">true</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>generateReports</Name>
+            <ID>53278983-1caf-42ab-bb94-4c65d41407ae</ID>
+            <Question>Generate Reports ?</Question>
+            <ParamType>bool</ParamType>
+            <DefaultValue xsi:type="xsd:string">true</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>FundCurrency</Name>
+            <ID>cee4e028-9150-4c79-b605-883a81969117</ID>
+            <Question>Funding Currency:</Question>
+            <ParamType>string</ParamType>
+            <DefaultValue xsi:type="xsd:string">@"USDT"</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>commission</Name>
+            <ID>69f0ea99-71f6-4157-8978-1193c8111e8e</ID>
+            <Question>Trading Commission (%):</Question>
+            <ParamType>double</ParamType>
+            <DefaultValue xsi:type="xsd:string">0</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+          <InputParameter>
+            <Selected>true</Selected>
+            <Name>maxOrderSize</Name>
+            <ID>b85872da-5780-4fda-85a3-056ff947ba05</ID>
+            <Question>Maximum Order Size (in BTC):</Question>
+            <ParamType>double</ParamType>
+            <DefaultValue xsi:type="xsd:string">0.2</DefaultValue>
+            <Group />
+            <IsEditableInRuntime>false</IsEditableInRuntime>
+            <Modifiers>Public</Modifiers>
+            <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+            <IsPortfolioLevel>true</IsPortfolioLevel>
+            <ShowInReport>true</ShowInReport>
+            <IsReadOnly>false</IsReadOnly>
+          </InputParameter>
+        </InputParameters>
+      </InputParameters>
+      <VariablesGroup>
+        <Name>Variables and Indicators</Name>
+        <Expanded>true</Expanded>
+        <Variables />
+      </VariablesGroup>
+      <BuildingBlocks>
+        <Name>Building Blocks</Name>
+        <Expanded>true</Expanded>
+        <Functions />
+      </BuildingBlocks>
+      <Events>
+        <Name>Events</Name>
+        <Expanded>true</Expanded>
+        <Events />
+      </Events>
+      <Scales>
+        <Name>Scales</Name>
+        <Expanded>true</Expanded>
+        <Scales />
+        <Baskets />
+      </Scales>
+      <MarketGrids>
+        <Name>Market Grids</Name>
+        <Expanded>true</Expanded>
+        <MarketGrids />
+      </MarketGrids>
+      <Reports>
+        <Name>Reports</Name>
+        <Expanded>true</Expanded>
+        <Reports>
+          <Report>
+            <Selected>true</Selected>
+            <Name>CapitalReport</Name>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>8eb044c1-2c82-48d9-b6b3-067f82e15b0d</ID>
+            <Parameters>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>CurrentTime</Name>
+                <ID>5318d438-d33b-4976-8551-1a8174702d29</ID>
+                <ParamType>string</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>PortfolioCapital</Name>
+                <ID>09800bd1-51ed-4017-b6e7-9571736f09d8</ID>
+                <ParamType>double</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>RealizedPnL</Name>
+                <ID>a5a13df3-9c58-402e-8a80-53bd4c07d73b</ID>
+                <ParamType>double</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>UnrealizedPnL</Name>
+                <ID>71afa42f-09fe-41be-9eed-ac69756c3ed1</ID>
+                <ParamType>double</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>CumulativePnL</Name>
+                <ID>c1368c70-78a4-4eb9-984f-80e40699641b</ID>
+                <ParamType>double</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>RefilledCapital</Name>
+                <ID>28bb9faa-8651-49a5-9ebd-7ebf073db6fa</ID>
+                <ParamType>double</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>RefillTime</Name>
+                <ID>18cc0979-635f-4f8a-b9bd-66a39424c731</ID>
+                <ParamType>int</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+            </Parameters>
+          </Report>
+          <Report>
+            <Selected>true</Selected>
+            <Name>CustomPerformanceReport</Name>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>1c58d64e-6162-4861-a4a9-318eadd417ad</ID>
+            <Parameters>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>Key</Name>
+                <ID>86e6b535-4f5e-4886-84ce-9e6ea71ee83f</ID>
+                <ParamType>string</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+              <Parameter>
+                <Selected>true</Selected>
+                <Name>Value</Name>
+                <ID>d91bb6a0-7b5c-4e28-86d9-9732c335f5e9</ID>
+                <ParamType>double</ParamType>
+                <DefaultValue xsi:type="xsd:string" />
+                <IsEditableInRuntime>false</IsEditableInRuntime>
+                <Modifiers>Public</Modifiers>
+                <IsRuntimeMultiValue>false</IsRuntimeMultiValue>
+                <IsPortfolioLevel>true</IsPortfolioLevel>
+                <ShowInReport>true</ShowInReport>
+                <IsReadOnly>false</IsReadOnly>
+              </Parameter>
+            </Parameters>
+          </Report>
+        </Reports>
+      </Reports>
+      <Advanced>
+        <Name>Default Values</Name>
+        <Expanded>true</Expanded>
+        <SymbolListDef>
+          <Selected>false</Selected>
+          <Name>Symbol List</Name>
+          <ID>cbad3bb5-472e-4f8f-9d2f-d07ede96220b</ID>
+          <Path />
+        </SymbolListDef>
+        <RunParametersDef>
+          <Selected>false</Selected>
+          <Name>Run Parameters</Name>
+          <ID>a84aaa9d-4027-4777-8cd9-de5626f0f11e</ID>
+        </RunParametersDef>
+      </Advanced>
+      <Libraries>
+        <Name>Libraries</Name>
+        <Expanded>true</Expanded>
+        <Libraries>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>8175baa3-e1cb-4402-8eff-8ca5eebb84b1</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\FinAnalysis.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>77dbe306-9697-4794-98bc-e660ffcf544b</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\MathNet.Numerics.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>cebbed63-02b6-490a-95a3-3574861ee410</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Newtonsoft.Json.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>dc980022-2151-48d9-a3b8-aad6c366ecf6</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Reporting.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>42c8e402-3a70-43a7-b8d7-7e9c70f9445f</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>System</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>42c8e402-3a70-43a7-b8d7-7e9c70f9445f</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>System.Drawing</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>0267b6c4-d898-401f-a64c-e4b82f598e3c</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>System.Net.Http</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>53f9f21e-52e7-432b-93dd-7a1d9d33716e</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>System.Windows.Forms</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>42c8e402-3a70-43a7-b8d7-7e9c70f9445f</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>System.XML</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>42c8e402-3a70-43a7-b8d7-7e9c70f9445f</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>System.Core</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>10bc0496-49ef-4976-8b59-87a476dfecf9</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>System.Xml.Linq</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>16521d5a-f46a-427e-a6c8-caef68ec4e17</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>netstandard.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>4eaf4299-0a39-47f9-91f4-ca445e91e5db</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\QuantOffice.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>96ef46c4-6412-4735-8ed4-b9f7b31a6a71</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\QuantOfficeLibrary.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>85f8b663-433e-40f1-b888-444eb4e68993</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\IdxEditor.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>d2315013-7166-402e-b6a7-9fbd4470f272</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\FinAnalysis.Base.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>5c561ff2-0e36-4f9e-83ab-fc1a3c932915</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Deltix.Timebase.Api.Messages.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>a49a6d71-320a-481c-b495-d8aa34d3082a</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Timebase.Api.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>9bd1e401-770d-452f-834b-7e7199461a49</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Timebase.Client.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>e10eb260-450b-4d82-9100-a0845ee94633</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\UhfConnector.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>c2105676-12e0-442d-9e17-b3f99eacf8b9</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\OrderExecutor.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>0c9a3438-4be4-4742-b443-a4b308aa6654</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\StrategyServer.Api.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>ef24e166-25cc-4e94-9693-0fb3258e6006</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Deltix.StrategyServer.Api.Messages.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>3a40c043-ff2d-4044-b1e7-e2250bcd6843</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\RTMath.Containers.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>a5e90cd9-f2a0-4af4-977f-ca73d87d01d2</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Deltix.DFP.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>fcb031c2-9229-4956-87c2-771724da0d7a</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\QuantOffice.Data.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>74d454c4-940b-4b8f-90eb-39e01167d333</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\System.Memory.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>9858b7f1-7796-4352-b479-42b4010a5d53</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\QuantOffice.Commons.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>159effeb-7615-417c-a466-8bb47235ba12</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Deltix.Time.Utils.dll</HintPath>
+          </Library>
+          <Library>
+            <Selected>true</Selected>
+            <IconPath>../icons/app/block.ico</IconPath>
+            <ID>413f2221-aba9-44f8-9e9b-5e8e15522e86</ID>
+            <LibID>00000000-0000-0000-0000-000000000000</LibID>
+            <Usings />
+            <HintPath>C:\Deltix\QuantOffice\Bin\Deltix.TradingCalendar.dll</HintPath>
+          </Library>
+        </Libraries>
+      </Libraries>
+      <OutputStreams>
+        <Name>Output Streams</Name>
+        <Expanded>true</Expanded>
+        <OutputStreams>
+          <OutputStreamDef>
+            <Selected>true</Selected>
+            <Name>StrategyPositions</Name>
+            <ID>f80af76a-d1ef-4a78-b7a8-7885db42b262</ID>
+            <TickDBMessages>
+              <TickDBMessage>
+                <Stream>StrategyPositions</Stream>
+                <StreamName>StrategyPositions</StreamName>
+                <Type>deltix.timebase.api.universal.StrategyPositions</Type>
+                <BuiltInClassName>deltix.timebase.api.messages.InstrumentMessage</BuiltInClassName>
+                <ParentClassNames>
+                  <string>deltix.timebase.api.universal.StrategyPositions</string>
+                </ParentClassNames>
+                <Fields>
+                  <TickDBMessageField>
+                    <Name>weight</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.StrategyPositions</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>strategy</Name>
+                    <TypeName>RTMath.Containers.MutableString</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.StrategyPositions</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>UTF8</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>urgency</Name>
+                    <TypeName>RTMath.Containers.MutableString</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.StrategyPositions</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>UTF8</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                </Fields>
+              </TickDBMessage>
+            </TickDBMessages>
+            <StreamTickDBMessages>
+              <TickDBMessage>
+                <Stream>StrategyPositions</Stream>
+                <StreamName>StrategyPositions</StreamName>
+                <Type>deltix.timebase.api.universal.StrategyPositions</Type>
+                <BuiltInClassName>deltix.timebase.api.messages.InstrumentMessage</BuiltInClassName>
+                <ParentClassNames>
+                  <string>deltix.timebase.api.universal.StrategyPositions</string>
+                </ParentClassNames>
+                <Fields>
+                  <TickDBMessageField>
+                    <Name>weight</Name>
+                    <TypeName>System.Double</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.StrategyPositions</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>DECIMAL</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>strategy</Name>
+                    <TypeName>RTMath.Containers.MutableString</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.StrategyPositions</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>UTF8</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                  <TickDBMessageField>
+                    <Name>urgency</Name>
+                    <TypeName>RTMath.Containers.MutableString</TypeName>
+                    <DeclaredTypeName>deltix.timebase.api.universal.StrategyPositions</DeclaredTypeName>
+                    <IsStatic>false</IsStatic>
+                    <DataEncoding>UTF8</DataEncoding>
+                    <IsNullable>true</IsNullable>
+                    <IsOverride>false</IsOverride>
+                    <Description />
+                  </TickDBMessageField>
+                </Fields>
+              </TickDBMessage>
+            </StreamTickDBMessages>
+            <WriteMode>Rewrite</WriteMode>
+          </OutputStreamDef>
+        </OutputStreams>
+      </OutputStreams>
+    </Groups>
+  </Configuration>
+  <WizardOptions>
+    <ReformatPortfolioLevel>false</ReformatPortfolioLevel>
+    <Optimizing>false</Optimizing>
+    <ReformatInstrumentLevel>false</ReformatInstrumentLevel>
+  </WizardOptions>
+  <CodeGeneratorVersion>93</CodeGeneratorVersion>
+  <CheckExtendedSecurityMetaInfo>true</CheckExtendedSecurityMetaInfo>
+  <Attachments />
+</CustomViewDef>

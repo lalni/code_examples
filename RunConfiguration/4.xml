@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<CustomViewRunConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>4</Name>
+  <StrategySetup>
+    <CustomViewDefId>ad9e97a8-810c-4327-9dc7-2bbadb648bd1</CustomViewDefId>
+    <Debugging>false</Debugging>
+    <SelectedStartDate>0001-01-01T00:00:00</SelectedStartDate>
+    <SelectedEndDate>9999-12-31T23:59:59.9999999</SelectedEndDate>
+    <Symbols />
+    <TradingSession>
+      <Start>-10675199.02:48:05.4775808</Start>
+      <End>-10675199.02:48:05.4775808</End>
+    </TradingSession>
+    <IsTradingSessionRangeInExchangeTZ>true</IsTradingSessionRangeInExchangeTZ>
+    <BarSize>0 sec</BarSize>
+    <ChartBarSize>
+      <Size>0</Size>
+      <UOM>Second</UOM>
+    </ChartBarSize>
+    <ChartConfiguration>
+      <FieldProperties />
+      <TimePeriod>
+        <Size>0</Size>
+        <UOM>Millisecond</UOM>
+      </TimePeriod>
+      <BarSize>
+        <Size>0</Size>
+        <UOM>Second</UOM>
+      </BarSize>
+      <TickBarSize>-1</TickBarSize>
+      <VisualStyle>Candle</VisualStyle>
+      <PriceScaleMode>Linear</PriceScaleMode>
+      <AttributeDefs />
+      <BenchmarkDefs />
+      <ItemsToShow>Last</ItemsToShow>
+      <ShowVolume>false</ShowVolume>
+      <CurrencyCode>
+        <NumericCode>999</NumericCode>
+        <Country />
+        <Name />
+        <AlphabeticCode />
+        <Sign />
+        <MinorUnit>2147483647</MinorUnit>
+      </CurrencyCode>
+      <StartTime>0001-01-01T00:00:00</StartTime>
+      <EndTime>0001-01-01T00:00:00</EndTime>
+      <TradingSession>
+        <Start>-10675199.02:48:05.4775808</Start>
+        <End>-10675199.02:48:05.4775808</End>
+      </TradingSession>
+      <HasTradingSession>false</HasTradingSession>
+      <IsTradingSessionRangeInExchangeTZ>true</IsTradingSessionRangeInExchangeTZ>
+      <CalendarOptions>
+        <Enabled>false</Enabled>
+        <Path>C:\Deltix\QuantOffice\Data\CalendarDB.xml</Path>
+      </CalendarOptions>
+      <WarmupOptions>
+        <Enabled>false</Enabled>
+        <BarSize>
+          <UOM>Day</UOM>
+          <Size>1</Size>
+        </BarSize>
+        <WarmupStrategy>false</WarmupStrategy>
+        <WarmupIntradayStream />
+      </WarmupOptions>
+      <Resolution>Millisecond</Resolution>
+      <CvSet>
+        <ItemsId>
+          <guid>ad9e97a8-810c-4327-9dc7-2bbadb648bd1</guid>
+        </ItemsId>
+      </CvSet>
+      <ChartDataType>Bar</ChartDataType>
+      <WarmModeEnabled>false</WarmModeEnabled>
+      <UseAlternativeDataCache>false</UseAlternativeDataCache>
+      <UseVisualizer>false</UseVisualizer>
+      <ConfigurationSymbols>
+        <Symbols />
+        <Symbols2Show />
+        <ShowAllSymbols>true</ShowAllSymbols>
+      </ConfigurationSymbols>
+      <Realtime>false</Realtime>
+      <Range>
+        <Size>0</Size>
+        <UOM>Millisecond</UOM>
+      </Range>
+      <L1QuoteAggregatorOptions>
+        <Enabled>false</Enabled>
+        <UseAllExchanges>true</UseAllExchanges>
+        <Exchanges />
+        <ShowNational>true</ShowNational>
+        <ShowConsolidated>true</ShowConsolidated>
+        <ShowByExchange>false</ShowByExchange>
+        <AllExchanges />
+        <HasNational>false</HasNational>
+      </L1QuoteAggregatorOptions>
+      <ShowPriceChart>true</ShowPriceChart>
+      <ShowOtherCharts>true</ShowOtherCharts>
+      <LayoutType>OneWindow</LayoutType>
+      <ChartWindowsLayout>
+        <DisplayRowsFirst>true</DisplayRowsFirst>
+        <MaxWindowNumber>20</MaxWindowNumber>
+        <GridRowsCount>4</GridRowsCount>
+        <GridColsCount>5</GridColsCount>
+      </ChartWindowsLayout>
+      <ColorThemeName>Light</ColorThemeName>
+    </ChartConfiguration>
+    <DrawCharts>true</DrawCharts>
+    <DrawSecondaryCharts>true</DrawSecondaryCharts>
+    <VisualStyle>Bars</VisualStyle>
+    <PriceScaleMode>Linear</PriceScaleMode>
+    <ReportingMode>Forms</ReportingMode>
+    <FlexMonitorLayoutId>00000000-0000-0000-0000-000000000000</FlexMonitorLayoutId>
+    <UseVisualizer>false</UseVisualizer>
+    <StrategyId>00000000-0000-0000-0000-000000000000</StrategyId>
+    <DisplayName />
+    <ThreadNumber>0</ThreadNumber>
+  </StrategySetup>
+  <ChartConfig>
+    <FieldProperties />
+    <TimePeriod>
+      <Size>0</Size>
+      <UOM>Millisecond</UOM>
+    </TimePeriod>
+    <BarSize>
+      <Size>0</Size>
+      <UOM>Second</UOM>
+    </BarSize>
+    <TickBarSize>-1</TickBarSize>
+    <VisualStyle>Candle</VisualStyle>
+    <PriceScaleMode>Linear</PriceScaleMode>
+    <AttributeDefs />
+    <BenchmarkDefs />
+    <ItemsToShow>Last</ItemsToShow>
+    <ShowVolume>false</ShowVolume>
+    <CurrencyCode>
+      <NumericCode>999</NumericCode>
+      <Country />
+      <Name />
+      <AlphabeticCode />
+      <Sign />
+      <MinorUnit>2147483647</MinorUnit>
+    </CurrencyCode>
+    <StartTime>0001-01-01T00:00:00</StartTime>
+    <EndTime>0001-01-01T00:00:00</EndTime>
+    <TradingSession>
+      <Start>-10675199.02:48:05.4775808</Start>
+      <End>-10675199.02:48:05.4775808</End>
+    </TradingSession>
+    <HasTradingSession>false</HasTradingSession>
+    <IsTradingSessionRangeInExchangeTZ>true</IsTradingSessionRangeInExchangeTZ>
+    <CalendarOptions>
+      <Enabled>false</Enabled>
+      <Path>C:\Deltix\QuantOffice\Data\CalendarDB.xml</Path>
+    </CalendarOptions>
+    <WarmupOptions>
+      <Enabled>false</Enabled>
+      <BarSize>
+        <UOM>Day</UOM>
+        <Size>1</Size>
+      </BarSize>
+      <WarmupStrategy>false</WarmupStrategy>
+      <WarmupIntradayStream />
+    </WarmupOptions>
+    <Resolution>Millisecond</Resolution>
+    <CvSet>
+      <ItemsId />
+    </CvSet>
+    <ChartDataType>Bar</ChartDataType>
+    <WarmModeEnabled>false</WarmModeEnabled>
+    <UseAlternativeDataCache>false</UseAlternativeDataCache>
+    <UseVisualizer>false</UseVisualizer>
+    <ConfigurationSymbols>
+      <Symbols />
+      <Symbols2Show />
+      <ShowAllSymbols>true</ShowAllSymbols>
+    </ConfigurationSymbols>
+    <Realtime>false</Realtime>
+    <Range>
+      <Size>0</Size>
+      <UOM>Millisecond</UOM>
+    </Range>
+    <L1QuoteAggregatorOptions>
+      <Enabled>false</Enabled>
+      <UseAllExchanges>true</UseAllExchanges>
+      <Exchanges />
+      <ShowNational>true</ShowNational>
+      <ShowConsolidated>true</ShowConsolidated>
+      <ShowByExchange>false</ShowByExchange>
+      <AllExchanges />
+      <HasNational>false</HasNational>
+    </L1QuoteAggregatorOptions>
+    <ShowPriceChart>true</ShowPriceChart>
+    <ShowOtherCharts>true</ShowOtherCharts>
+    <LayoutType>OneWindow</LayoutType>
+    <ChartWindowsLayout>
+      <DisplayRowsFirst>true</DisplayRowsFirst>
+      <MaxWindowNumber>20</MaxWindowNumber>
+      <GridRowsCount>4</GridRowsCount>
+      <GridColsCount>5</GridColsCount>
+    </ChartWindowsLayout>
+    <ColorThemeName>Light</ColorThemeName>
+  </ChartConfig>
+</CustomViewRunConfig>

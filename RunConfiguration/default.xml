@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<CustomViewRunConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <InputParams><experiments>
+  <experiment>
+    <HistoryNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>PortfolioExecutor</Name>
+      <TypeName>PortfolioExecutor</TypeName>
+      <Kind>Invalid</Kind>
+      <Children>
+        <HistoryNode>
+          <Name>InitialCap</Name>
+          <TypeName>System.Double</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:double">100</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>BetSize</Name>
+          <TypeName>System.Int32</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:int">0</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>InterestOnCash</Name>
+          <TypeName>System.Double</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:double">0</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>StopLossPct</Name>
+          <TypeName>System.Double</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:double">100</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>TakeProfitPct</Name>
+          <TypeName>System.Double</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:double">10000</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>exchange</Name>
+          <TypeName>System.String</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:string">BINANCE</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>simulationMode</Name>
+          <TypeName>QuantOffice.Execution.SimulationMode</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:token">IntradayBar</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>emsParameters</Name>
+          <TypeName>Deltix.EMS.Coordinator.EMSParameters</TypeName>
+          <Kind>Field</Kind>
+          <Children>
+            <HistoryNode>
+              <Name>OrderExecutor</Name>
+              <TypeName>Deltix.EMS.Coordinator.OrderExecutorParameters</TypeName>
+              <Kind>Field</Kind>
+              <Children>
+                <HistoryNode>
+                  <Name>Parameters</Name>
+                  <TypeName>Deltix.EMS.Simulator.TradingPlatformParametersBase</TypeName>
+                  <Kind>Field</Kind>
+                  <Children>
+                    <HistoryNode>
+                      <Name>exchange</Name>
+                      <TypeName>System.String</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:string">BINANCE</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>simulationMode</Name>
+                      <TypeName>QuantOffice.Execution.SimulationMode</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:token">IntradayBar</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_stock</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_stock_lmt</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_stock_stp</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_fut</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_fut_stp</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_fut_lmt</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_cur</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_cur_stp</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>slip_cur_lmt</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>mkt_order_sim_price</Name>
+                      <TypeName>Deltix.EMS.Simulator.MktOrderSimPrice</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:token">CurrentBarClose</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>fill_lmt_rule</Name>
+                      <TypeName>Deltix.EMS.Simulator.FillLmtRule</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:token">PriceTouchLimit</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>LimitOrderFillProbability</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">1</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>UseRandomLimitOrderFillProbabilitySeed</Name>
+                      <TypeName>System.Boolean</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:boolean">false</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>LimitOrderFillProbabilitySeed</Name>
+                      <TypeName>System.Int32</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:int">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>lmt_order_sim_price_on_bar_open</Name>
+                      <TypeName>Deltix.EMS.Simulator.LmtOrderSimPrice</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:token">BarOpen</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>exactStopFill</Name>
+                      <TypeName>System.Boolean</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:boolean">false</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>orderExecutionLatency</Name>
+                      <TypeName>System.Int64</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:long">0</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>ignoreOutOfSessionPrices</Name>
+                      <TypeName>System.Boolean</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:boolean">false</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>tickSimulationPrice</Name>
+                      <TypeName>Deltix.EMS.Simulator.TickSimulationPrice</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:token">Last</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>tickFraction</Name>
+                      <TypeName>System.Double</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:double">1</Value>
+                    </HistoryNode>
+                    <HistoryNode>
+                      <Name>BestExecution</Name>
+                      <TypeName>System.Boolean</TypeName>
+                      <Kind>Field</Kind>
+                      <Value xsi:type="xsd:boolean">true</Value>
+                    </HistoryNode>
+                  </Children>
+                </HistoryNode>
+              </Children>
+            </HistoryNode>
+            <HistoryNode>
+              <Name>ReconcileByDailyPrices</Name>
+              <TypeName>System.Boolean</TypeName>
+              <Kind>Field</Kind>
+              <Value xsi:type="xsd:boolean">false</Value>
+            </HistoryNode>
+            <HistoryNode>
+              <Name>AllowExtraIncome</Name>
+              <TypeName>System.Boolean</TypeName>
+              <Kind>Field</Kind>
+              <Value xsi:type="xsd:boolean">false</Value>
+            </HistoryNode>
+          </Children>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>instrumentsProportion</Name>
+          <TypeName>System.Double</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:double">100</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>ReInvestMode</Name>
+          <TypeName>System.Boolean</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:boolean">true</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>generateReports</Name>
+          <TypeName>System.Boolean</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:boolean">true</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>FundCurrency</Name>
+          <TypeName>System.String</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:string">BTC</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>StrategyName</Name>
+          <TypeName>System.String</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:string">Size_Tradable</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>commission</Name>
+          <TypeName>System.Double</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:double">0.04</Value>
+        </HistoryNode>
+        <HistoryNode>
+          <Name>maxOrderSize</Name>
+          <TypeName>System.Double</TypeName>
+          <Kind>Field</Kind>
+          <Value xsi:type="xsd:double">0.2</Value>
+        </HistoryNode>
+      </Children>
+    </HistoryNode>
+    <RendererState name="PortfolioExecutor" kind="Invalid" type="PortfolioExecutor">
+      <ChildRenderers>
+        <RendererState name="BetSize" kind="Field" type="System.Int32">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">0</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="commission" kind="Field" type="System.Double">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">0.04</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="emsParameters" kind="Field" type="Deltix.EMS.Coordinator.EMSParameters">
+          <attributes>
+            <attribute name="expanded">True</attribute>
+          </attributes>
+          <ChildRenderers>
+            <RendererState name="emsParameters" kind="Field" type="Deltix.EMS.Coordinator.EMSParameters">
+              <ChildRenderers>
+                <RendererState name="OrderExecutor" kind="Field" type="Deltix.EMS.Coordinator.OrderExecutorParameters">
+                  <attributes>
+                    <attribute name="expanded">True</attribute>
+                  </attributes>
+                  <ChildRenderers>
+                    <RendererState name="OrderExecutor" kind="Field" type="Deltix.EMS.Coordinator.OrderExecutorParameters">
+                      <ChildRenderers>
+                        <RendererState name="Parameters" kind="Field" type="Deltix.EMS.Simulator.TradingPlatformParametersBase">
+                          <attributes>
+                            <attribute name="expanded">True</attribute>
+                          </attributes>
+                          <ChildRenderers>
+                            <RendererState name="Parameters" kind="Field" type="Deltix.EMS.Simulator.TradingPlatformParametersBase">
+                              <attributes>
+                                <attribute name="Limit Orders">True</attribute>
+                                <attribute name="Market Orders">True</attribute>
+                                <attribute name="Order Execution">True</attribute>
+                                <attribute name="Slippage">True</attribute>
+                                <attribute name="Stop Orders">True</attribute>
+                              </attributes>
+                              <ChildRenderers>
+                                <RendererState name="CloseAuctionTimeout" kind="Field" type="QuantOffice.Commons.Execution.Utils.TimeInterval">
+                                  <attributes>
+                                    <attribute name="Value">AAEAAAD/////AQAAAAAAAAAMAgAAAEpRdWFudE9mZmljZS5Db21tb25zLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAMFF1YW50T2ZmaWNlLkNvbW1vbnMuRXhlY3V0aW9uLlV0aWxzLlRpbWVJbnRlcnZhbAEAAAAEdGltZQAMAgAAAAAAAAAAAAAACw==</attribute>
+                                  </attributes>
+                                </RendererState>
+                                <RendererState name="exchange" kind="Field" type="System.String">
+                                  <attributes>
+                                    <attribute name="RendererValue">BINANCE</attribute>
+                                  </attributes>
+                                </RendererState>
+                              </ChildRenderers>
+                            </RendererState>
+                          </ChildRenderers>
+                        </RendererState>
+                      </ChildRenderers>
+                    </RendererState>
+                  </ChildRenderers>
+                </RendererState>
+              </ChildRenderers>
+            </RendererState>
+          </ChildRenderers>
+        </RendererState>
+        <RendererState name="InitialCap" kind="Field" type="System.Double">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">100</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="instrumentsProportion" kind="Field" type="System.Double">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">100</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="InterestOnCash" kind="Field" type="System.Double">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">0</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="maxOrderSize" kind="Field" type="System.Double">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">0.2</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="simulationMode" kind="Field" type="QuantOffice.Execution.SimulationMode">
+          <attributes>
+            <attribute name="Values">IntradayBar</attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="StopLossPct" kind="Field" type="System.Double">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">100</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+        <RendererState name="TakeProfitPct" kind="Field" type="System.Double">
+          <attributes>
+            <attribute name="IntervalsCount">0</attribute>
+            <attribute name="Max">0</attribute>
+            <attribute name="Min">0</attribute>
+            <attribute name="RangeType">Simple</attribute>
+            <attribute name="Step">0</attribute>
+            <attribute name="Value">10000</attribute>
+            <attribute name="Values">
+            </attribute>
+          </attributes>
+        </RendererState>
+      </ChildRenderers>
+    </RendererState>
+  </experiment>
+</experiments></InputParams>
+  <InputParamsBlotter></InputParamsBlotter>
+  <Name>default</Name>
+  <StrategySetup>
+    <CustomViewDefId>ad9e97a8-810c-4327-9dc7-2bbadb648bd1</CustomViewDefId>
+    <Debugging>false</Debugging>
+    <SelectedStartDate>2021-09-20T11:07:52.131</SelectedStartDate>
+    <SelectedEndDate>2023-04-26T23:00:00Z</SelectedEndDate>
+    <Symbols>
+      <string>ETHBTC</string>
+      <string>BNBBTC</string>
+      <string>SOLBTC</string>
+      <string>XRPBTC</string>
+      <string>MATICBTC</string>
+      <string>ADABTC</string>
+      <string>FTMBTC</string>
+      <string>LTCBTC</string>
+      <string>DOGEBTC</string>
+      <string>DOTBTC</string>
+      <string>LDOBTC</string>
+      <string>CHZBTC</string>
+      <string>GALABTC</string>
+      <string>LINKBTC</string>
+      <string>AXSBTC</string>
+      <string>AVAXBTC</string>
+      <string>FILBTC</string>
+      <string>LRCBTC</string>
+      <string>SANDBTC</string>
+      <string>GMTBTC</string>
+      <string>ETCBTC</string>
+      <string>FETBTC</string>
+      <string>QNTBTC</string>
+      <string>ATOMBTC</string>
+      <string>MANABTC</string>
+      <string>DYDXBTC</string>
+      <string>RVNBTC</string>
+      <string>ALGOBTC</string>
+      <string>ZILBTC</string>
+      <string>WAVESBTC</string>
+      <string>TRXBTC</string>
+      <string>CRVBTC</string>
+      <string>HBARBTC</string>
+      <string>JASMYBTC</string>
+      <string>XLMBTC</string>
+      <string>AAVEBTC</string>
+      <string>OCEANBTC</string>
+      <string>UNIBTC</string>
+      <string>TFUELBTC</string>
+    </Symbols>
+    <TradingSession>
+      <Start>00:00:00</Start>
+      <End>1.00:00:00</End>
+    </TradingSession>
+    <IsTradingSessionRangeInExchangeTZ>true</IsTradingSessionRangeInExchangeTZ>
+    <BarSize>4 hours</BarSize>
+    <ChartBarSize>
+      <Size>4</Size>
+      <UOM>Hour</UOM>
+    </ChartBarSize>
+    <CurrencyCode>
+      <NumericCode>999</NumericCode>
+      <Country />
+      <Name />
+      <AlphabeticCode />
+      <Sign />
+      <MinorUnit>2147483647</MinorUnit>
+    </CurrencyCode>
+    <ChartConfiguration>
+      <FieldProperties />
+      <TimePeriod>
+        <Size>0</Size>
+        <UOM>Second</UOM>
+      </TimePeriod>
+      <BarSize>
+        <Size>4</Size>
+        <UOM>Hour</UOM>
+      </BarSize>
+      <TickBarSize>-1</TickBarSize>
+      <VisualStyle>Candle</VisualStyle>
+      <PriceScaleMode>Linear</PriceScaleMode>
+      <AttributeDefs />
+      <BenchmarkDefs />
+      <ItemsToShow>Last</ItemsToShow>
+      <ShowVolume>false</ShowVolume>
+      <UserRange>
+        <Start>2021-09-20T11:07:52.131</Start>
+        <End>2023-04-26T23:00:00Z</End>
+      </UserRange>
+      <CurrencyCode>
+        <NumericCode>999</NumericCode>
+        <Country />
+        <Name />
+        <AlphabeticCode />
+        <Sign />
+        <MinorUnit>2147483647</MinorUnit>
+      </CurrencyCode>
+      <StartTime>2021-09-20T11:07:52.131</StartTime>
+      <EndTime>2023-04-26T23:00:00Z</EndTime>
+      <TradingSession>
+        <Start>-10675199.02:48:05.4775808</Start>
+        <End>-10675199.02:48:05.4775808</End>
+      </TradingSession>
+      <HasTradingSession>false</HasTradingSession>
+      <IsTradingSessionRangeInExchangeTZ>true</IsTradingSessionRangeInExchangeTZ>
+      <CalendarOptions>
+        <Enabled>false</Enabled>
+        <Path>C:\Users\Ben\Documents\QuantOffice\Settings\Data\CalendarDB.xml</Path>
+      </CalendarOptions>
+      <WarmupOptions>
+        <Enabled>false</Enabled>
+        <BarSize>
+          <UOM>Day</UOM>
+          <Size>10</Size>
+        </BarSize>
+        <WarmupStrategy>false</WarmupStrategy>
+        <WarmupIntradayStream />
+      </WarmupOptions>
+      <Resolution>Hour</Resolution>
+      <CvSet>
+        <ItemsId>
+          <guid>ad9e97a8-810c-4327-9dc7-2bbadb648bd1</guid>
+        </ItemsId>
+      </CvSet>
+      <ConnectionInfo>
+        <Main>
+          <SubscriptionId>00000000-0000-0000-0000-000000000076</SubscriptionId>
+          <StreamKey>BTCBasisBinanceSpot</StreamKey>
+          <StreamName>BTCBasisBinanceSpot</StreamName>
+          <AdjustmentOptions>
+            <UseSubscriptionOptions>true</UseSubscriptionOptions>
+            <CustomOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </CustomOptions>
+          </AdjustmentOptions>
+        </Main>
+        <Daily>
+          <SubscriptionId>00000000-0000-0000-0000-000000000000</SubscriptionId>
+          <StreamKey>DailyBinanceSpotBTC</StreamKey>
+          <StreamName>DailyBinanceSpotBTC</StreamName>
+          <AdjustmentOptions>
+            <UseSubscriptionOptions>true</UseSubscriptionOptions>
+            <CustomOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </CustomOptions>
+          </AdjustmentOptions>
+        </Daily>
+        <Intraday>
+          <SubscriptionId>00000000-0000-0000-0000-000000000000</SubscriptionId>
+          <StreamKey>BTCBasisBinanceSpot</StreamKey>
+          <StreamName>BTCBasisBinanceSpot</StreamName>
+          <AdjustmentOptions>
+            <UseSubscriptionOptions>true</UseSubscriptionOptions>
+            <CustomOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </CustomOptions>
+          </AdjustmentOptions>
+        </Intraday>
+        <Ticks>
+          <SubscriptionId>00000000-0000-0000-0000-000000000000</SubscriptionId>
+          <StreamKey>OKEX</StreamKey>
+          <StreamName>OKEX</StreamName>
+          <AdjustmentOptions>
+            <UseSubscriptionOptions>true</UseSubscriptionOptions>
+            <CustomOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </CustomOptions>
+          </AdjustmentOptions>
+        </Ticks>
+        <UseTickForIntraday>false</UseTickForIntraday>
+        <InputStreams />
+        <OutputStreams>
+          <StreamConnectionInfo>
+            <SubscriptionId>f80af76a-d1ef-4a78-b7a8-7885db42b262</SubscriptionId>
+            <StreamKey>StrategyPositions</StreamKey>
+            <StreamName>StrategyPositions</StreamName>
+            <AdjustmentOptions>
+              <UseSubscriptionOptions>true</UseSubscriptionOptions>
+              <CustomOptions>
+                <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+                <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+                <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+                <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+                <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+                <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+              </CustomOptions>
+            </AdjustmentOptions>
+          </StreamConnectionInfo>
+        </OutputStreams>
+      </ConnectionInfo>
+      <ChartDataType>Bar</ChartDataType>
+      <WarmModeEnabled>false</WarmModeEnabled>
+      <UseAlternativeDataCache>false</UseAlternativeDataCache>
+      <UseVisualizer>true</UseVisualizer>
+      <ConfigurationSymbols>
+        <Symbols>
+          <string>ETHBTC</string>
+          <string>BNBBTC</string>
+          <string>SOLBTC</string>
+          <string>XRPBTC</string>
+          <string>MATICBTC</string>
+          <string>ADABTC</string>
+          <string>FTMBTC</string>
+          <string>LTCBTC</string>
+          <string>DOGEBTC</string>
+          <string>DOTBTC</string>
+          <string>LDOBTC</string>
+          <string>CHZBTC</string>
+          <string>GALABTC</string>
+          <string>LINKBTC</string>
+          <string>AXSBTC</string>
+          <string>AVAXBTC</string>
+          <string>FILBTC</string>
+          <string>LRCBTC</string>
+          <string>SANDBTC</string>
+          <string>GMTBTC</string>
+          <string>ETCBTC</string>
+          <string>FETBTC</string>
+          <string>QNTBTC</string>
+          <string>ATOMBTC</string>
+          <string>MANABTC</string>
+          <string>DYDXBTC</string>
+          <string>RVNBTC</string>
+          <string>ALGOBTC</string>
+          <string>ZILBTC</string>
+          <string>WAVESBTC</string>
+          <string>TRXBTC</string>
+          <string>CRVBTC</string>
+          <string>HBARBTC</string>
+          <string>JASMYBTC</string>
+          <string>XLMBTC</string>
+          <string>AAVEBTC</string>
+          <string>OCEANBTC</string>
+          <string>UNIBTC</string>
+          <string>TFUELBTC</string>
+        </Symbols>
+        <Symbols2Show />
+        <ShowAllSymbols>true</ShowAllSymbols>
+      </ConfigurationSymbols>
+      <Realtime>false</Realtime>
+      <Range>
+        <Size>-1</Size>
+        <UOM>Second</UOM>
+      </Range>
+      <L1QuoteAggregatorOptions>
+        <Enabled>false</Enabled>
+        <UseAllExchanges>true</UseAllExchanges>
+        <Exchanges />
+        <ShowNational>true</ShowNational>
+        <ShowConsolidated>true</ShowConsolidated>
+        <ShowByExchange>false</ShowByExchange>
+        <AllExchanges />
+        <HasNational>false</HasNational>
+      </L1QuoteAggregatorOptions>
+      <ShowPriceChart>true</ShowPriceChart>
+      <ShowOtherCharts>true</ShowOtherCharts>
+      <LayoutType>OneWindow</LayoutType>
+      <ChartWindowsLayout>
+        <DisplayRowsFirst>true</DisplayRowsFirst>
+        <MaxWindowNumber>20</MaxWindowNumber>
+        <GridRowsCount>4</GridRowsCount>
+        <GridColsCount>5</GridColsCount>
+      </ChartWindowsLayout>
+      <ColorThemeName>Light</ColorThemeName>
+    </ChartConfiguration>
+    <DrawCharts>true</DrawCharts>
+    <DrawSecondaryCharts>true</DrawSecondaryCharts>
+    <VisualStyle>Candle</VisualStyle>
+    <PriceScaleMode>Linear</PriceScaleMode>
+    <ReportingMode>Forms</ReportingMode>
+    <FlexMonitorLayoutId>00000000-0000-0000-0000-000000000000</FlexMonitorLayoutId>
+    <UseVisualizer>false</UseVisualizer>
+    <StrategyId>00000000-0000-0000-0000-000000000000</StrategyId>
+    <DisplayName />
+    <ThreadNumber>0</ThreadNumber>
+  </StrategySetup>
+  <ChartConfig>
+    <FieldProperties />
+    <TimePeriod>
+      <Size>0</Size>
+      <UOM>Second</UOM>
+    </TimePeriod>
+    <BarSize>
+      <Size>4</Size>
+      <UOM>Hour</UOM>
+    </BarSize>
+    <TickBarSize>-1</TickBarSize>
+    <VisualStyle>Candle</VisualStyle>
+    <PriceScaleMode>Linear</PriceScaleMode>
+    <AttributeDefs />
+    <BenchmarkDefs />
+    <ItemsToShow>Last</ItemsToShow>
+    <ShowVolume>false</ShowVolume>
+    <UserRange>
+      <Start>2021-09-20T11:07:52.131</Start>
+      <End>2023-04-26T23:00:00Z</End>
+    </UserRange>
+    <CurrencyCode>
+      <NumericCode>999</NumericCode>
+      <Country />
+      <Name />
+      <AlphabeticCode />
+      <Sign />
+      <MinorUnit>2147483647</MinorUnit>
+    </CurrencyCode>
+    <StartTime>2021-09-20T11:07:52.131</StartTime>
+    <EndTime>2023-04-26T23:00:00Z</EndTime>
+    <TradingSession>
+      <Start>-10675199.02:48:05.4775808</Start>
+      <End>-10675199.02:48:05.4775808</End>
+    </TradingSession>
+    <HasTradingSession>false</HasTradingSession>
+    <IsTradingSessionRangeInExchangeTZ>true</IsTradingSessionRangeInExchangeTZ>
+    <CalendarOptions>
+      <Enabled>false</Enabled>
+      <Path>C:\Users\Ben\Documents\QuantOffice\Settings\Data\CalendarDB.xml</Path>
+    </CalendarOptions>
+    <WarmupOptions>
+      <Enabled>false</Enabled>
+      <BarSize>
+        <UOM>Day</UOM>
+        <Size>10</Size>
+      </BarSize>
+      <WarmupStrategy>false</WarmupStrategy>
+      <WarmupIntradayStream />
+    </WarmupOptions>
+    <Resolution>Hour</Resolution>
+    <CvSet>
+      <ItemsId>
+        <guid>ad9e97a8-810c-4327-9dc7-2bbadb648bd1</guid>
+      </ItemsId>
+    </CvSet>
+    <ConnectionInfo>
+      <Main>
+        <SubscriptionId>00000000-0000-0000-0000-000000000076</SubscriptionId>
+        <StreamKey>BTCBasisBinanceSpot</StreamKey>
+        <StreamName>BTCBasisBinanceSpot</StreamName>
+        <AdjustmentOptions>
+          <UseSubscriptionOptions>true</UseSubscriptionOptions>
+          <CustomOptions>
+            <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+            <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+            <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+            <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+            <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+            <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+          </CustomOptions>
+        </AdjustmentOptions>
+      </Main>
+      <Daily>
+        <SubscriptionId>00000000-0000-0000-0000-000000000000</SubscriptionId>
+        <StreamKey>DailyBinanceSpotBTC</StreamKey>
+        <StreamName>DailyBinanceSpotBTC</StreamName>
+        <AdjustmentOptions>
+          <UseSubscriptionOptions>true</UseSubscriptionOptions>
+          <CustomOptions>
+            <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+            <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+            <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+            <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+            <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+            <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+          </CustomOptions>
+        </AdjustmentOptions>
+      </Daily>
+      <Intraday>
+        <SubscriptionId>00000000-0000-0000-0000-000000000000</SubscriptionId>
+        <StreamKey>BTCBasisBinanceSpot</StreamKey>
+        <StreamName>BTCBasisBinanceSpot</StreamName>
+        <AdjustmentOptions>
+          <UseSubscriptionOptions>true</UseSubscriptionOptions>
+          <CustomOptions>
+            <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+            <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+            <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+            <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+            <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+            <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+          </CustomOptions>
+        </AdjustmentOptions>
+      </Intraday>
+      <Ticks>
+        <SubscriptionId>00000000-0000-0000-0000-000000000000</SubscriptionId>
+        <StreamKey>OKEX</StreamKey>
+        <StreamName>OKEX</StreamName>
+        <AdjustmentOptions>
+          <UseSubscriptionOptions>true</UseSubscriptionOptions>
+          <CustomOptions>
+            <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+            <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+            <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+            <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+            <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+            <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+          </CustomOptions>
+        </AdjustmentOptions>
+      </Ticks>
+      <UseTickForIntraday>false</UseTickForIntraday>
+      <InputStreams />
+      <OutputStreams>
+        <StreamConnectionInfo>
+          <SubscriptionId>f80af76a-d1ef-4a78-b7a8-7885db42b262</SubscriptionId>
+          <StreamKey>StrategyPositions</StreamKey>
+          <StreamName>StrategyPositions</StreamName>
+          <AdjustmentOptions>
+            <UseSubscriptionOptions>true</UseSubscriptionOptions>
+            <CustomOptions>
+              <SettlementDate>9999-12-31T23:59:59.9999999</SettlementDate>
+              <AdjustCapitalChagesPrice>false</AdjustCapitalChagesPrice>
+              <AdjustCapitalChangesVolume>false</AdjustCapitalChangesVolume>
+              <AdjustCapitalChangesPerShare>false</AdjustCapitalChangesPerShare>
+              <AdjustNormalCashDividendsPrice>false</AdjustNormalCashDividendsPrice>
+              <AdjustSpecialCashDividendsPrice>false</AdjustSpecialCashDividendsPrice>
+            </CustomOptions>
+          </AdjustmentOptions>
+        </StreamConnectionInfo>
+      </OutputStreams>
+    </ConnectionInfo>
+    <ChartDataType>Bar</ChartDataType>
+    <WarmModeEnabled>false</WarmModeEnabled>
+    <UseAlternativeDataCache>false</UseAlternativeDataCache>
+    <UseVisualizer>true</UseVisualizer>
+    <ConfigurationSymbols>
+      <Symbols>
+        <string>ETHBTC</string>
+        <string>BNBBTC</string>
+        <string>SOLBTC</string>
+        <string>XRPBTC</string>
+        <string>MATICBTC</string>
+        <string>ADABTC</string>
+        <string>FTMBTC</string>
+        <string>LTCBTC</string>
+        <string>DOGEBTC</string>
+        <string>DOTBTC</string>
+        <string>LDOBTC</string>
+        <string>CHZBTC</string>
+        <string>GALABTC</string>
+        <string>LINKBTC</string>
+        <string>AXSBTC</string>
+        <string>AVAXBTC</string>
+        <string>FILBTC</string>
+        <string>LRCBTC</string>
+        <string>SANDBTC</string>
+        <string>GMTBTC</string>
+        <string>ETCBTC</string>
+        <string>FETBTC</string>
+        <string>QNTBTC</string>
+        <string>ATOMBTC</string>
+        <string>MANABTC</string>
+        <string>DYDXBTC</string>
+        <string>RVNBTC</string>
+        <string>ALGOBTC</string>
+        <string>ZILBTC</string>
+        <string>WAVESBTC</string>
+        <string>TRXBTC</string>
+        <string>CRVBTC</string>
+        <string>HBARBTC</string>
+        <string>JASMYBTC</string>
+        <string>XLMBTC</string>
+        <string>AAVEBTC</string>
+        <string>OCEANBTC</string>
+        <string>UNIBTC</string>
+        <string>TFUELBTC</string>
+      </Symbols>
+      <Symbols2Show />
+      <ShowAllSymbols>true</ShowAllSymbols>
+    </ConfigurationSymbols>
+    <Realtime>false</Realtime>
+    <Range>
+      <Size>-1</Size>
+      <UOM>Second</UOM>
+    </Range>
+    <L1QuoteAggregatorOptions>
+      <Enabled>false</Enabled>
+      <UseAllExchanges>true</UseAllExchanges>
+      <Exchanges />
+      <ShowNational>true</ShowNational>
+      <ShowConsolidated>true</ShowConsolidated>
+      <ShowByExchange>false</ShowByExchange>
+      <AllExchanges />
+      <HasNational>false</HasNational>
+    </L1QuoteAggregatorOptions>
+    <ShowPriceChart>true</ShowPriceChart>
+    <ShowOtherCharts>true</ShowOtherCharts>
+    <LayoutType>OneWindow</LayoutType>
+    <ChartWindowsLayout>
+      <DisplayRowsFirst>true</DisplayRowsFirst>
+      <MaxWindowNumber>20</MaxWindowNumber>
+      <GridRowsCount>4</GridRowsCount>
+      <GridColsCount>5</GridColsCount>
+    </ChartWindowsLayout>
+    <ColorThemeName>Light</ColorThemeName>
+  </ChartConfig>
+</CustomViewRunConfig>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33596A40-DB31-475A-8D5B-5BE2CC0C7AFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuantOffice</RootNamespace>
+    <AssemblyName>c-backtest-template</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>false</Deterministic>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseSharedCompilation>false</UseSharedCompilation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>$(QuantOfficeBinPath)\StrategyRunnerApp.exe</StartProgram>
+    <StartArguments>"$(MSBuildProjectDirectory)\bin\Debug\c-backtest-template.dll"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>$(QuantOfficeBinPath)\StrategyRunnerApp.exe</StartProgram>
+    <StartArguments>"$(MSBuildProjectDirectory)\bin\Release\c-backtest-template.dll"</StartArguments>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FinAnalysis">
+      <HintPath>$(QuantOfficeBinPath)\FinAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\MathNet.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Reporting">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Reporting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="netstandard.dll" />
+    <Reference Include="QuantOffice, Version=5.4.6.8, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\QuantOffice.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="QuantOfficeLibrary, Version=5.4.6.8, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\QuantOfficeLibrary.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="IdxEditor, Version=5.4.6.8, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\IdxEditor.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="FinAnalysis.Base, Version=2.1.13.0, Culture=neutral, PublicKeyToken=d8b0b03b74f552b8">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\FinAnalysis.Base.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Deltix.Timebase.Api.Messages, Version=5.4.37.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Deltix.Timebase.Api.Messages.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Timebase.Api, Version=5.4.13.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Timebase.Api.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Timebase.Client, Version=5.4.13.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Timebase.Client.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UhfConnector, Version=5.4.6.8, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\UhfConnector.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="OrderExecutor, Version=5.4.6.8, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\OrderExecutor.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="StrategyServer.Api, Version=5.4.6.8, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\StrategyServer.Api.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Deltix.StrategyServer.Api.Messages, Version=0.2.27.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Deltix.StrategyServer.Api.Messages.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="RTMath.Containers, Version=2.3.18.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\RTMath.Containers.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Deltix.DFP, Version=0.10.20.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Deltix.DFP.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="QuantOffice.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\QuantOffice.Data.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\System.Memory.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="QuantOffice.Commons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\QuantOffice.Commons.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Deltix.Time.Utils, Version=5.2.12.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Deltix.Time.Utils.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Deltix.TradingCalendar, Version=5.2.12.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(QuantOfficeBinPath)\Deltix.TradingCalendar.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PortfolioWeights.cs" />
+    <Compile Include="Reporter.cs" />
+    <Compile Include="SlackMessenger.cs" />
+    <Compile Include="InstrumentExecutor.cs" />
+    <Compile Include="Accessory\InstrumentExecutorAccessory.cs" />
+    <Compile Include="Accessory\Accessory.cs" />
+    <Compile Include="PortfolioExecutor.cs" />
+    <Compile Include="Accessory\PortfolioExecutorAccessory.cs" />
+    <Compile Include="Rebalancer.cs" />
+    <Compile Include="Transformations.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Config.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

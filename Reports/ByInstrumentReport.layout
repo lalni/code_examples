@@ -1,0 +1,3813 @@
+<?xml version="1.0"?>
+<LayoutDef xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ColumnsDefinition>
+    <FiltersEnabled xmlns="DbViewer.Forms.Data">false</FiltersEnabled>
+    <Columns xmlns="DbViewer.Forms.Data">
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Instrument</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>102da72d-78d4-4667-b209-ce3ea4d22012</Id>
+        <Name>Instrument</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Type</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>3cae134e-7c4e-4bb6-b343-6af2f016dda5</Id>
+        <Name>Type</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <ExactExpression>
+          <IsDynamicFilter>false</IsDynamicFilter>
+          <Values>
+            <anyType xsi:type="xsd:string">All Trades</anyType>
+          </Values>
+          <AutoAssigned>false</AutoAssigned>
+          <Mode>Inclusive</Mode>
+        </ExactExpression>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>true</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>#,###,###.00</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Net Profit/Loss</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>0e08b7d2-d47c-473c-9118-d2840a3e3f6d</Id>
+        <Name>Net Profit/Loss</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>#,###,###.00</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Total Profit</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>f0839eb6-40dd-42cc-bff2-97026a2787bf</Id>
+        <Name>Total Profit</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>#,###,###.00</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Total Loss</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>754d7ecf-6613-4552-af8d-51a2a3a8a9f2</Id>
+        <Name>Total Loss</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Cumulated Profit %</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>04812f36-2e93-454d-8283-5388d147af23</Id>
+        <Name>Cumulated Profit %</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>#,###,###.00</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>5de569d3-4dfd-47e0-be11-118678f69805</Id>
+        <Name>Max Drawdown</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown %</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>d9612ef8-c670-4462-a9ed-55db0adb49a6</Id>
+        <Name>Max Drawdown %</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.DateTime</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown Time</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>608e0061-ae41-4afd-8f62-feea97778f2d</Id>
+        <Name>Max Drawdown Time</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Return/Drawdown Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>b1266b67-508e-4b3b-8aa4-dc0ba1338e38</Id>
+        <Name>Return/Drawdown Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Drawdown Days %</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>9f188f16-6d98-41ee-810c-7f5804a7e1b9</Id>
+        <Name>Drawdown Days Percent</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown Duration</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>252231f9-f8fb-40c5-85bd-f363c4cb1430</Id>
+        <Name>Max Drawdown Duration</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>CAGR</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>fe5dd110-f6d6-4132-a0f9-e2ed4eb54cc5</Id>
+        <Name>CAGR</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Sharpe Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>7d549a4d-9e56-4698-a8ef-6477098c4009</Id>
+        <Name>Sharpe Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Sortino Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>1d237076-82e1-4225-b828-1fe5aa2fe92d</Id>
+        <Name>Sortino Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>UPI</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>0e88fce2-989e-40bf-bf47-09d4433ad260</Id>
+        <Name>UPI</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Annualized Volatility</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>e57580c2-1123-42a9-bf30-d108da3639db</Id>
+        <Name>Annualized Volatility</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Information Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>34f745f4-6c24-434a-98ae-23210bd9e5f2</Id>
+        <Name>Information Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Optimal f</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>b2639e62-db2b-4379-9e9a-88405dfdad60</Id>
+        <Name>Optimal f</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Historical VaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>834cfa2f-9b74-4134-b6bf-a726a2bb7b85</Id>
+        <Name>Historical VaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Historical CVaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>8f4bb962-f225-4249-ac33-528643f6f3f6</Id>
+        <Name>Historical CVaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Theoretical VaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>d983c310-067a-4d3c-b830-ccc414369b7a</Id>
+        <Name>Theoretical VaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>P2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Theoretical CVaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>069b6d7c-5a1f-4036-aaa6-f9af8200c7ea</Id>
+        <Name>Theoretical CVaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>All Trades #</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>1d7ddbda-7ced-440b-aad9-d0fe045733a6</Id>
+        <Name>All Trades Number</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Profitable Trades Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>00ec66cd-3e4d-4954-8d86-fbb07809201a</Id>
+        <Name>Profitable Trades Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Winning Trades #</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>d1c64b3d-bd26-4745-99e6-6c3134d67d22</Id>
+        <Name>Winning Trades #</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Losing Trades #</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>60e8e517-faf4-4ddc-b05a-41ebf8ef9ed3</Id>
+        <Name>Losing Trades #</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Trade</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>5d324a71-a028-4eea-896a-a26b28f85b36</Id>
+        <Name>Average Trade</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Avg Profit Per Trade (bps)</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>608eae68-7e47-4bf2-8c72-766b9910d6fd</Id>
+        <Name>Avg Profit Per Trade (bps)</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Winning Trade</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>ddbc48c7-3079-45aa-8a07-4fa6123e2526</Id>
+        <Name>Average Winning Trade</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Losing Trade</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>27108254-85fc-43f6-97bc-a42c9d85b093</Id>
+        <Name>Average Losing Trade</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Profit per Share</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>ed37af1b-a80e-4bee-88b1-f706262de11a</Id>
+        <Name>Average Profit per Share</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Avg. Win/ Avg. Loss Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>04a96e35-b318-4ffd-959d-0ef59a8e185b</Id>
+        <Name>Avg. Win/ Avg. Loss Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Conseq. Winners</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>dd0686cf-da38-434f-998e-528e09b06da3</Id>
+        <Name>Max Conseq. Winners</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Conseq. Losers</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>271e265f-dd55-4875-bbde-59b3ac22eeda</Id>
+        <Name>Max Conseq. Losers</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Commission</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>1e112c5c-89a8-471e-9139-9750e321f4b6</Id>
+        <Name>Commission</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.TimeSpan</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Trade Holding Time</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>4ee45032-da4c-49ac-9618-26b0119e69e3</Id>
+        <Name>Average Trade Holding Time</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Currency</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>32046291-1771-4b39-9497-fc38e0fc2f46</Id>
+        <Name>Currency</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Portfolio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>af4044c4-871e-4c8c-a275-d27c46ed6c3f</Id>
+        <Name>Portfolio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>StrategyName</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>1c08335e-8bc1-4198-83ff-b06f10653398</Id>
+        <Name>StrategyName</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>InitialCap</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>a2fbe4da-0d1f-4a8a-b933-b11f2db56d98</Id>
+        <Name>InitialCap</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>BetSize</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>b8d06ffa-d248-49fe-9ba8-bfb03aa8e00d</Id>
+        <Name>BetSize</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>InterestOnCash</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>26b78e26-9774-4e8a-bb89-0e521e39f8bf</Id>
+        <Name>InterestOnCash</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>StopLossPct</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>7503fd10-7066-44bf-8521-cfeb22ff73c2</Id>
+        <Name>StopLossPct</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>TakeProfitPct</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>fdd9bc3c-4ffd-4070-8367-49096c8276e8</Id>
+        <Name>TakeProfitPct</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>exchange</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>55fb34e5-46ab-4b23-bd7c-523fd0964d93</Id>
+        <Name>exchange</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>instrumentsProportion</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>4d1f0b87-8aef-4e63-b984-4d0ac2910a57</Id>
+        <Name>instrumentsProportion</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Boolean</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>ReInvestMode</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>a42dc742-1a33-4cbf-bb16-dff5594d1751</Id>
+        <Name>ReInvestMode</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Boolean</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>generateReports</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>e0242d65-6846-41fe-a5ba-5e21716b4f9f</Id>
+        <Name>generateReports</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>FundCurrency</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>2ba88354-8999-431f-a435-0a013fc00c90</Id>
+        <Name>FundCurrency</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>false</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>commission</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>49229de8-b7a6-4d03-9e2b-658e3274694d</Id>
+        <Name>commission</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+    </Columns>
+    <GroupedColumns xmlns="DbViewer.Forms.Data" />
+    <RecentGroupings xmlns="DbViewer.Forms.Data">
+      <Items />
+      <Capacity>5</Capacity>
+    </RecentGroupings>
+    <ColumnsOrder xmlns="DbViewer.Forms.Data">
+      <string>Instrument</string>
+      <string>Type</string>
+      <string>Net Profit/Loss</string>
+      <string>Total Profit</string>
+      <string>Total Loss</string>
+      <string>Cumulated Profit %</string>
+      <string>Max Drawdown</string>
+      <string>Max Drawdown %</string>
+      <string>Max Drawdown Time</string>
+      <string>Return/Drawdown Ratio</string>
+      <string>Drawdown Days %</string>
+      <string>Max Drawdown Duration</string>
+      <string>CAGR</string>
+      <string>Sharpe Ratio</string>
+      <string>Sortino Ratio</string>
+      <string>UPI</string>
+      <string>Annualized Volatility</string>
+      <string>Information Ratio</string>
+      <string>Optimal f</string>
+      <string>Historical VaR 95% 1D</string>
+      <string>Historical CVaR 95% 1D</string>
+      <string>Theoretical VaR 95% 1D</string>
+      <string>Theoretical CVaR 95% 1D</string>
+      <string>All Trades #</string>
+      <string>Profitable Trades Ratio</string>
+      <string>Winning Trades #</string>
+      <string>Losing Trades #</string>
+      <string>Average Trade</string>
+      <string>Avg Profit Per Trade (bps)</string>
+      <string>Average Winning Trade</string>
+      <string>Average Losing Trade</string>
+      <string>Average Profit per Share</string>
+      <string>Avg. Win/ Avg. Loss Ratio</string>
+      <string>Max Conseq. Winners</string>
+      <string>Max Conseq. Losers</string>
+      <string>Commission</string>
+      <string>Average Trade Holding Time</string>
+      <string>Currency</string>
+      <string>Portfolio</string>
+      <string>StrategyName</string>
+      <string>InitialCap</string>
+      <string>BetSize</string>
+      <string>InterestOnCash</string>
+      <string>StopLossPct</string>
+      <string>TakeProfitPct</string>
+      <string>exchange</string>
+      <string>instrumentsProportion</string>
+      <string>ReInvestMode</string>
+      <string>generateReports</string>
+      <string>FundCurrency</string>
+      <string>commission</string>
+    </ColumnsOrder>
+    <ColumnsWidth xmlns="DbViewer.Forms.Data">
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+      <int>100</int>
+    </ColumnsWidth>
+  </ColumnsDefinition>
+  <PluginsData />
+  <DetailsColumnsDefinition>
+    <FiltersEnabled xmlns="DbViewer.Forms.Data">false</FiltersEnabled>
+    <Columns xmlns="DbViewer.Forms.Data">
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Instrument</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>362c895c-a7ce-4011-9e2c-c1eaaebede48</Id>
+        <Name>Instrument</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Type</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>aeacbe1d-8afa-4e19-a4a9-3edb1327419b</Id>
+        <Name>Type</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Net Profit/Loss</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>1fc8f74c-02ed-47af-a32b-eb64c8d49b56</Id>
+        <Name>Net Profit/Loss</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Total Profit</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>e3319098-064a-43fe-8ea2-62bab3f08f18</Id>
+        <Name>Total Profit</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Total Loss</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>bc16661e-f62e-4cf6-baed-d7a182555f85</Id>
+        <Name>Total Loss</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Cumulated Profit %</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>2ebf4974-c873-4585-9eb5-cfdadd21193c</Id>
+        <Name>Cumulated Profit %</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>615dafc7-f7dd-46ed-a518-3a79cfdc1afd</Id>
+        <Name>Max Drawdown</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown %</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>6973d1d3-8767-469d-8c1a-171773fe9837</Id>
+        <Name>Max Drawdown %</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.DateTime</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown Time</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>d6e09d23-7b56-4228-bfd3-d6d713289bde</Id>
+        <Name>Max Drawdown Time</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Return/Drawdown Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>a3f205c2-3567-4e62-9b77-daab842a35b0</Id>
+        <Name>Return/Drawdown Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Drawdown Days Percent</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>4b8081b5-034a-4a5d-b861-ecff37867f4c</Id>
+        <Name>Drawdown Days Percent</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Drawdown Duration</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>815b2e4e-2346-4e97-89f6-b65929c4e0bf</Id>
+        <Name>Max Drawdown Duration</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>CAGR</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>b1eb9595-bfd2-43fd-8f77-ce857558a19b</Id>
+        <Name>CAGR</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Sharpe Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>906ee646-3102-4476-97c9-4791df5475d1</Id>
+        <Name>Sharpe Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Sortino Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>606e155c-f800-4e74-a89a-4868855f70db</Id>
+        <Name>Sortino Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>UPI</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>e3b20300-6d86-4628-8b4a-ae7e0b7a0b7e</Id>
+        <Name>UPI</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Annualized Volatility</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>150666a7-6ab4-498d-acb9-8512c8339ae5</Id>
+        <Name>Annualized Volatility</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Information Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>2bc11258-e3e8-478b-9e10-a2199c055a7c</Id>
+        <Name>Information Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Optimal f</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>f44a53c8-2a67-4e4d-a4c6-d8ab6829cf4b</Id>
+        <Name>Optimal f</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Historical VaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>17eb1866-1e41-485b-afc0-6f6a26105130</Id>
+        <Name>Historical VaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Historical CVaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>9fc118e5-b2c3-40e4-af40-49c409a986bb</Id>
+        <Name>Historical CVaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Theoretical VaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>f9cb6587-adf1-4865-a8c3-bee9b6258245</Id>
+        <Name>Theoretical VaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Theoretical CVaR 95% 1D</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>f30aab27-5c33-4cb3-a783-18048fac79a2</Id>
+        <Name>Theoretical CVaR 95% 1D</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>All Trades Number</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>763e1c5f-2caa-4c13-8a76-a1998c3954a4</Id>
+        <Name>All Trades Number</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Profitable Trades Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>c2239cbc-8bde-4f3b-abbb-178fd3c5a1d6</Id>
+        <Name>Profitable Trades Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Winning Trades #</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>01eb93e6-48a8-4314-a869-b9cc014040a6</Id>
+        <Name>Winning Trades #</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Losing Trades #</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>3e7f8f83-c3c0-4d75-a31f-7f024b42adeb</Id>
+        <Name>Losing Trades #</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Trade</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>c74aca36-05e0-4b9c-b8bd-7c80d05d8fdd</Id>
+        <Name>Average Trade</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Avg Profit Per Trade (bps)</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>a1b54ecc-f598-40bd-8ce4-f4cc4f86cb23</Id>
+        <Name>Avg Profit Per Trade (bps)</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Winning Trade</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>1e5a47b4-64d8-4bc2-a1aa-e87c6e708da6</Id>
+        <Name>Average Winning Trade</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Losing Trade</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>0c8ac5e4-3a34-4afc-aad4-e6d84a879b45</Id>
+        <Name>Average Losing Trade</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Profit per Share</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>56629271-4e6f-490c-b751-51220ba780a3</Id>
+        <Name>Average Profit per Share</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Avg. Win/ Avg. Loss Ratio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>5b140980-d028-488b-ac3b-060b1e9f6c69</Id>
+        <Name>Avg. Win/ Avg. Loss Ratio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Conseq. Winners</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>6338b10b-94f4-4f1b-920e-1426422baba1</Id>
+        <Name>Max Conseq. Winners</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Max Conseq. Losers</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>b037dcc4-163a-4ba1-ad4a-1407378da133</Id>
+        <Name>Max Conseq. Losers</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Commission</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>e7c814a7-7ca6-40aa-ad0e-206c367fcabe</Id>
+        <Name>Commission</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.TimeSpan</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Average Trade Holding Time</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>6465ac9b-cf2f-4b74-88a2-a237aba83008</Id>
+        <Name>Average Trade Holding Time</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Currency</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>4f307cf8-b042-4566-96b7-1cdfc2e9e974</Id>
+        <Name>Currency</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>Portfolio</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>769021a2-8d75-48b9-bdcc-dbea1a0138d7</Id>
+        <Name>Portfolio</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>StrategyName</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>faccdaf4-5711-4a9c-87d6-347bdfa48586</Id>
+        <Name>StrategyName</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>InitialCap</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>d6c2aefc-d205-466d-84d7-ee5b5532f67c</Id>
+        <Name>InitialCap</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>0</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Int32</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>BetSize</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>74b91a11-6e65-46c9-a5a2-b32152fb6e8c</Id>
+        <Name>BetSize</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>InterestOnCash</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>a333af12-43ed-49dc-96be-10303fe83929</Id>
+        <Name>InterestOnCash</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>StopLossPct</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>2ceac909-632f-4508-9c8e-b020036dc023</Id>
+        <Name>StopLossPct</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>TakeProfitPct</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>56998fcf-16ec-4d59-87cd-b31a0da62e78</Id>
+        <Name>TakeProfitPct</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>exchange</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>81ca71ef-a7a7-40ec-b65d-65daa01c4fb6</Id>
+        <Name>exchange</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>instrumentsProportion</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>3e348247-2cc7-4c92-84f8-0a1acad21c42</Id>
+        <Name>instrumentsProportion</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Boolean</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>ReInvestMode</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>a4724df1-28f0-4de6-9655-a319584b0b27</Id>
+        <Name>ReInvestMode</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Boolean</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>generateReports</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>6e47cb0f-9223-4f82-bbfa-08a66a5b77f3</Id>
+        <Name>generateReports</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format />
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.String</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>FundCurrency</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>0ed63dbb-54bd-4264-a678-462496fb7e1f</Id>
+        <Name>FundCurrency</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+      <GridRowColumn>
+        <DomainLevel>-1</DomainLevel>
+        <GroupMode>Normal</GroupMode>
+        <Deletable>false</Deletable>
+        <CarryOverLastValue>true</CarryOverLastValue>
+        <Visible>true</Visible>
+        <Frozen>false</Frozen>
+        <Format>2</Format>
+        <IsPriceColumn>false</IsPriceColumn>
+        <IsDate>false</IsDate>
+        <Type>System.Double</Type>
+        <Aggregate>None</Aggregate>
+        <HasScale>false</HasScale>
+        <GroupIndex>-1</GroupIndex>
+        <AggregateFunctions />
+        <Caption>commission</Caption>
+        <Editable>false</Editable>
+        <AllowMerging>false</AllowMerging>
+        <Hidden>false</Hidden>
+        <Id>d6127502-2af1-421b-84d6-2d9cd8c21eba</Id>
+        <Name>commission</Name>
+        <Dummy>false</Dummy>
+        <Width>-1</Width>
+        <Colored>false</Colored>
+        <CustomAggregation>false</CustomAggregation>
+        <ColoringDirection>Normal</ColoringDirection>
+        <EnableStyledString>false</EnableStyledString>
+        <Aggregates />
+        <AggregateFilters />
+        <IsFilterActive>false</IsFilterActive>
+        <CustomProperty>00000000-0000-0000-0000-000000000000</CustomProperty>
+        <PluginRef>
+          <Plugin>00000000-0000-0000-0000-000000000000</Plugin>
+          <Action>00000000-0000-0000-0000-000000000000</Action>
+        </PluginRef>
+      </GridRowColumn>
+    </Columns>
+    <GroupedColumns xmlns="DbViewer.Forms.Data" />
+    <RecentGroupings xmlns="DbViewer.Forms.Data">
+      <Items />
+      <Capacity>5</Capacity>
+    </RecentGroupings>
+  </DetailsColumnsDefinition>
+  <ViewMode>Default</ViewMode>
+  <Id>cc7967c7-0710-463d-bf4c-bfb7ce47bb64</Id>
+  <Name>Default</Name>
+</LayoutDef>
